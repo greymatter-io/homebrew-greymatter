@@ -12,8 +12,8 @@ class Gmenv < Formula
   uses_from_macos "tar"
 
   def install
-    prefix.install ["bin", "libexec"]
-    prefix.install "lib" if build.head?
+    prefix.install ["bin", "libexec", "lib"]
+#     prefix.install "lib" if build.head?
   end
   
   test do
