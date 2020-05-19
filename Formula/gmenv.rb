@@ -11,8 +11,6 @@ class Gmenv < Formula
 
   uses_from_macos "tar"
 
-  conflicts_with "greymatter", :because => "gmenv symlinks greymatter binaries"
-
   def install
     prefix.install ["bin", "libexec", "share"]
     prefix.install "lib" if build.head?
