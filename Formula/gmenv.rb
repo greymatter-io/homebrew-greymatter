@@ -16,7 +16,4 @@ class Gmenv < Formula
     prefix.install "lib" if build.head?
   end
 
-  test do
-    system bin/"gmenv", "--version"
-  end
 end
