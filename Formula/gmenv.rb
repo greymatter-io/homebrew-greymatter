@@ -7,7 +7,7 @@ class Gmenv < Formula
 
   bottle :unneeded
 
-  depends_on: bash => "5.0.17"
+  depends_on "bash" => "5.0.17"
 
   uses_from_macos "tar"
 
