@@ -2,16 +2,16 @@
 class Gmcat < Formula
   desc "GmCat is a tool to interact with The GreyMatter Service Mesh's Catalog"
   homepage "https://github.com/greymatter-io/gmcat"
-  version "0.0.14"
+  version "0.0.15"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/greymatter-io/gmcat/releases/download/v0.0.14/gmcat_0.0.14_darwin_amd64.tar.gz"
-    sha256 "64a453c2f2ec7a0bb4b34ab377e66f1dea1e17adf3483307853ee4b902cd62ed"
+    url "https://github.com/greymatter-io/gmcat/releases/download/v0.0.15/gmcat_0.0.15_darwin_x86_64.tar.gz"
+    sha256 "fce4aeb25ea40e758cfc0121c3d5e9c21715b99214924e484828594dac9cb85d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/greymatter-io/gmcat/releases/download/v0.0.14/gmcat_0.0.14_linux_amd64.tar.gz"
-      sha256 "05e16b27950b1d84246325f4f46d8abf3494033039c28fe70fcbfe34c5effdd0"
+      url "https://github.com/greymatter-io/gmcat/releases/download/v0.0.15/gmcat_0.0.15_linux_x86_64.tar.gz"
+      sha256 "0e57a25913dd6b4ddf8d511ab17afb531f2fa0b40859bac1ced02d56d991e879"
     end
   end
 
