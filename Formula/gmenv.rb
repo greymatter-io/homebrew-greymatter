@@ -14,6 +14,15 @@ class Gmenv < Formula
 #     prefix.install "lib" if build.head?
   end
 
+  def post_install
+    versions_path = HOMEBREW_PREFIX/"etc/#{name}/versions"
+    versions_local = "#{prefix}/versions"
+
+    mkdir_p versions_path unless versions_path.directory?
+
+    ln_s versions_path, versions_local
+  end
+
   test do
     system bin/"gmenv", "--version"
   end
