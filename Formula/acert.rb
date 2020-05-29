@@ -2,16 +2,16 @@
 class Acert < Formula
   desc "Command-line utility for creating and managing X.509 identities"
   homepage "https://github.com/greymatter-io/acert"
-  version "0.2.1"
+  version "0.2.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/greymatter-io/acert/releases/download/v0.2.1/acert_0.2.1_darwin_x86_64.tar.gz"
-    sha256 "4c655987ca87142da72333c8ed8bd6811b0dd9c310cdc359ec0f1ea5bdead424"
+    url "https://github.com/greymatter-io/acert/releases/download/v0.2.2/acert_0.2.2_darwin_x86_64.tar.gz"
+    sha256 "d46ca0cb5c4eb278b96ef37e75b415c53cc9e9f7dcca8a6c6bbd8abe82294ae3"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/greymatter-io/acert/releases/download/v0.2.1/acert_0.2.1_linux_x86_64.tar.gz"
-      sha256 "827a9810c669b78f6b199e8dbb404e2d62af3573d8e46d277bec1bdfaccc82ee"
+      url "https://github.com/greymatter-io/acert/releases/download/v0.2.2/acert_0.2.2_linux_x86_64.tar.gz"
+      sha256 "57ac41441d3719d25c8e4652bb0bc28aae874b44020081aa6aec8b6f66458b7b"
     end
   end
 
