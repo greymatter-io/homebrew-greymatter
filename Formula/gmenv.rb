@@ -1,8 +1,8 @@
 class Gmenv < Formula
   desc "Grey Matter version manager inspired by tfenv"
   homepage "https://github.com/greymatter-io/gmenv"
-  url "https://github.com/greymatter-io/gmenv/archive/0.3.0.tar.gz"
-  sha256 "5091900c832392f484d2ba8ff7c3563b8866ad17d1598ce94c54686a52d52f6b"
+  url "https://github.com/greymatter-io/gmenv/archive/0.3.1.tar.gz"
+  sha256 "166fe7926c773385d76ce5301763bfcbe714b8c8f8712cb823cde5d0dc440ea3"
   head "https://github.com/greymatter-io/gmenv.git"
 
   bottle :unneeded
